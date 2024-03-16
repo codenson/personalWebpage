@@ -147,11 +147,10 @@ h1 {
   }
   #imagesetting {
     max-width: 100%;
-    object-fit: scale-down;
-
+    height: 100%;
     border: 5px solid black;
-    background-color: #f4cf47;
-    flex: 0.5;
+    background-color: #f96467;
+    flex: 1;
   }
   .text {
     background-color: #f96467;
@@ -159,7 +158,7 @@ h1 {
 
     box-sizing: border-box;
     width: 100%;
-    flex: 1;
+    flex: 2;
   }
   .center {
     font-size: 5pt;
