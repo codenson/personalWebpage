@@ -133,7 +133,7 @@ h1 {
 /*****************************************************************/
 @media (max-width: 650px) {
   .container1 {
-    display: block;
+    display: flex;
     /*background-color: rgb(240, 224, 224);*/
     /*background-color: #f96467;*/
     border: 5px solid black;
@@ -151,6 +151,7 @@ h1 {
 
     border: 5px solid black;
     background-color: #f4cf47;
+    flex: 0.5;
   }
   .text {
     background-color: #f96467;
@@ -158,5 +159,9 @@ h1 {
 
     box-sizing: border-box;
     width: 100%;
+    flex: 1;
+  }
+  .center {
+    font-size: 5pt;
   }
 }
