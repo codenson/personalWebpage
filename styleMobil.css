@@ -116,6 +116,8 @@ h1 {
   background-color: #f96467;
   position: relative;
   height: 20%;
+  margin: 0px;
+  padding: 0px;
 }
 .text {
   background-color: #f96467;
@@ -123,6 +125,8 @@ h1 {
 
   box-sizing: border-box;
   width: 100%;
+  padding: 0px;
+  margin: 0px;
 }
 .center {
   text-align: center;
@@ -138,6 +142,8 @@ h1 {
 }
 h1 {
   font-size: 14pt;
+  margin: 0px;
+  padding: 0px;
 }
 h2 {
   font-size: 10pt;
