@@ -84,27 +84,20 @@ h1 {
 }
 
 .containerImag {
-  background-color: white;
-
-  /* border: 10px solid blue;*/
-
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-
-  /*background-image: url("./images/me.JPG");*/
-
-  background-size: cover; /* Cover the entire area of the container */
-  /* background-position: center; /* Center the background image */
-  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
   position: relative;
-  /*float: center;*/
-  /*size: 50%;*/
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  overflow: hidden;
 }
 
+#imagesetting {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 5px solid black;
+}
+
+/*
 #imagesetting {
   max-width: 100%;
   max-height: 100%;
@@ -120,6 +113,7 @@ h1 {
   margin: 0px;
   padding: 0px;
 }
+*/
 .text {
   display: block;
   background-color: #f96467;
