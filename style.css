@@ -146,7 +146,7 @@ h1 {
     display: block;
   }
   html {
-    font-size: 5pt;
+    font-size: 9pt;
   }
   #imagesetting {
     max-width: 100%;
@@ -168,15 +168,15 @@ h1 {
     font-size: 5pt;
   }
   h2 {
-    font-size: 7pt;
+    font-size: 11pt;
   }
   p {
-    font-size: 5pt;
+    font-size: 7pt;
   }
   h3 {
-    font-size: 5pt;
+    font-size: 7pt;
   }
   li {
-    font-size: 4pt;
+    font-size: 6pt;
   }
 }
