@@ -133,11 +133,11 @@ h1 {
 }
 
 /*****************************************************************/
-/*
+
 @media (max-width: 650px) {
   .container1 {
     display: block;
-    
+
     border: 5px solid black;
     width: 100%;
 
@@ -167,5 +167,16 @@ h1 {
   .center {
     font-size: 5pt;
   }
+  h2 {
+    font-size: 7pt;
+  }
+  p {
+    font-size: 5pt;
+  }
+  h3 {
+    font-size: 5pt;
+  }
+  li {
+    font-size: 4pt;
+  }
 }
-*/
